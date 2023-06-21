@@ -5,7 +5,7 @@ import pg from 'pg';
 const { Pool } = pg;
 
 const pool = new Pool({
-  host: 'db.mcozhweccmhakluqtgzr.supabase.co',
+  host: process.env.SUPABASE_HOST_LINK,
   user: 'postgres',
   password: process.env.SUPABASE_PASSWORD,
   port: 5432,
