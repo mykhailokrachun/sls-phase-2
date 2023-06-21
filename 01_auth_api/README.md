@@ -1,4 +1,4 @@
-# CLI: Telegram Console Sender
+# Auth API
 
 Project showcases simple REST API using the Express framework and PostgreSQL database. Protected endpoints are expecting a valid token passed in the request headers. For example: Authorization: Bearer <access_token>.
 
